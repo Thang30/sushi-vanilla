@@ -16,7 +16,7 @@
 .hero-image img {
   width: 120%;
   height: 100%;
-  object-fit: contain;
+  object-fit: scale-down; /* if the parent container is smaller, then it will act like "contain" */
 }
 
 .hero-image__overlay {
