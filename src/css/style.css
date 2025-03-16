@@ -1,0 +1,8 @@
+/* other css file imports */
+@import url("sections/header.css");
+
+/* CSS variables */
+:root {
+  --primary-color: #b1454a;
+  --secondary-color: #121212;
+}

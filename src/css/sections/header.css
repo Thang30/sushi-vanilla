@@ -1,0 +1,25 @@
+.header__nav {
+  display: flex; /* default flex by row */
+  overflow: hidden; /* hide or cut off the overflown part */
+}
+
+.header__logo {
+  flex: 1; /* take up as much horizontal space as possible within its parent flex container, minus any space taken up by other flex items */
+  display: flex;
+
+  position: relative; /* common pattern: relative on parent, absolute on child, so the child can be relative to the parent, not the main body */
+  padding: 20px;
+}
+
+.header__logo-overlay {
+  position: absolute;
+  inset: 0; /* makes the overlay stretch to fill the entire area of its positioned ancestor (the .header__logo element). */
+  /* width: 100%; */ /* shouldn't need this as inset: 0 already takes care of both width and height */
+  background-color: var(--primary-color);
+  z-index: -1;
+}
+
+.header__logo h4 {
+  padding-left: 30px;
+  color: #fff;
+}
