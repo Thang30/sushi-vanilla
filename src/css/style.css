@@ -5,6 +5,7 @@
 @import url("sections/hero.css");
 @import url("sections/about.css");
 @import url("sections/popular.css");
+@import url("sections/trending.css");
 
 /* CSS variables */
 :root {
@@ -55,4 +56,10 @@
   opacity: 0.8;
 
   margin: 32px 0px;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
