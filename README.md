@@ -1,7 +1,16 @@
-## Sushi app with vanilla HMTL CSS JAVASCRIPT
+# Sushi ordering web design with vanilla HMTL CSS Javascript
 
-## Note from 16 March 2025
+A vanilla html/css/javascript website for sushi ordering. Checkout the live demo: [thang30.github.io/sushi-vanilla/](https://thang30.github.io/sushi-vanilla/)
 
-Setup the initial project. Next step:
+## Features
 
-- [ ] Create Header and Navbar
+- Sushi ordering website design implementation
+- Responsive design
+
+## Tech Stack
+
+- Vanilla HTML/CSS/Javascript
+
+## License
+
+MIT License
